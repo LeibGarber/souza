@@ -21,7 +21,7 @@ class App extends Component {
         <div className="App">
           <header>
             <h2>
-              <NavLink to="/home">Website Logo</NavLink>
+              <NavLink to="/home">Solomon Souza</NavLink>
             </h2>
             <nav>
               <li>
@@ -81,11 +81,11 @@ class App extends Component {
             </ul>
             <p>
               Made by{" "}
-              <a href="http://tutorialzine.com/" target="_blank">
+              <a href="..." target="_blank">
                 CapsLok
               </a>.{" "}
             </p>
-            <p>Ball out on these mofos</p>
+            <p>Watch us ball out on these mofos</p>
           </footer>
         </div>
       </Router>

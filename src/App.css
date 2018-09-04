@@ -52,10 +52,10 @@ nav {
 }
 
 a {
+  font-size: 18px;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-
   opacity: 0.9;
 }
 
@@ -70,6 +70,12 @@ a.btn {
   background-color: #2196f3;
   font-weight: 800;
   text-align: center;
+}
+
+.logo {
+  padding-top: 15px;
+  font-size: 30px;
+  margin-left: -15px;
 }
 
 hr {
@@ -103,7 +109,7 @@ section {
 section h3.title {
   color: #414a4f;
   text-transform: capitalize;
-  font: bold 32px "Open Sans", sans-serif;
+  font: bold 32px "IBM Plex Sans", sans-serif;
   margin-bottom: 35px;
   text-align: center;
 }
@@ -114,6 +120,7 @@ section p {
   margin-bottom: 35px;
   padding: 0 20px;
   line-height: 2;
+  font-family: "IBM Plex Sans";
 }
 
 ul.grid {
@@ -141,7 +148,7 @@ header {
 }
 
 header h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Cinzel Decorative", cursive;
 }
 
 header nav {
@@ -192,11 +199,16 @@ header nav li:last-child {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
-  background-size: cover;
+  background-size: 100% auto;
   background-color: #2196f3;
+  background-repeat: no-repeat;
   z-index: -1;
+}
+
+.background-image-home {
+  background-position: -15px -50px;
 }
 
 .hero .background-image:after {
@@ -211,12 +223,12 @@ header nav li:last-child {
 }
 
 .hero h1 {
-  font: bold 60px "Open Sans", sans-serif;
+  font: bold 60px "IBM Plex Sans", sans-serif;
   margin-bottom: 15px;
 }
 
 .hero h3 {
-  font: normal 28px "Open Sans", sans-serif;
+  font: normal 28px "IBM Plex Sans", sans-serif;
   margin-bottom: 40px;
 }
 

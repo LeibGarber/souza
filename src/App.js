@@ -21,7 +21,9 @@ class App extends Component {
         <div className="App">
           <header>
             <h2>
-              <NavLink to="/home">Solomon Souza</NavLink>
+              <NavLink className="logo" to="/home">
+                Solomon Souza
+              </NavLink>
             </h2>
             <nav>
               <li>

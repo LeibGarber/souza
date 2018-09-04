@@ -15,6 +15,14 @@ class About extends Component {
             className="background-image"
             style={{ backgroundImage: `url(${Sunny})` }}
           />
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <h1>Who is Solomon?</h1>
 
           <h3>It’s meant to be mysterious...</h3>

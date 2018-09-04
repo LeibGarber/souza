@@ -5,7 +5,7 @@ class Home extends Component {
       <div>
         <section className="hero">
           <div
-            className="background-image"
+            className="background-image background-image-home"
             style={{
               backgroundImage:
                 "url(https://scontent-sea1-1.cdninstagram.com/vp/ca9a12f3e985600715e15aedb0aa5ebd/5C068FF4/t51.2885-15/e35/31906619_171843940192937_52856204006785024_n.jpg?ig_cache_key=MTc4MjA0MTg5MzcxMjkwNjgwNA%3D%3D.2)"

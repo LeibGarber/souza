@@ -34,11 +34,9 @@ class App extends Component {
                 <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <NavLink to="/content1">Content 1</NavLink>
+                <NavLink to="/content1">Content </NavLink>
               </li>
-              <li>
-                <NavLink to="/content2">Content 2</NavLink>
-              </li>
+
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
@@ -49,7 +47,7 @@ class App extends Component {
             <Route exact path="/home" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/content1" component={Content1} />
-            <Route exact path="/content2" component={Content2} />
+
             <Route exact path="/contact" component={Contact} />
             <Redirect from="/" to="/home" />
           </Switch>

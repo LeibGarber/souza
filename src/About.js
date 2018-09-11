@@ -5,20 +5,22 @@ import Shuk from "./imgs/shukblack.jpg";
 import Kadosh from "./imgs/kadosh.jpg";
 import Nachlaot from "./imgs/nachlaotFix.jpg";
 import Selfie from "./imgs/selfie.jpg";
+import LazyHero from "react-lazy-hero";
+
+const SunnyPic = require("./imgs/Sunny.jpg");
 
 class About extends Component {
   render() {
     return (
       <div>
-        <section className="hero">
-          <div
-            className="background-image"
-            style={{ backgroundImage: `url(${Sunny})` }}
-          />
-
-          <br />
-          <br />
-          <br />
+        <LazyHero
+          className="LazySunny"
+          imageSrc={SunnyPic}
+          color="#515577"
+          opacity={0.5}
+          parallaxOffset={100}
+          minHeight="135vh"
+        >
           <br />
           <br />
           <br />
@@ -26,9 +28,7 @@ class About extends Component {
           <h1>Who is Solomon?</h1>
 
           <h3>It’s meant to be mysterious...</h3>
-        </section>
-
-        <section className="" />
+        </LazyHero>
 
         <section className="our-work">
           <h2>Student. Teacher. Friend. Artist. Creator. Creation.</h2>

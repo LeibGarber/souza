@@ -1,16 +1,35 @@
 import React, { Component } from "react";
+import "./Content.css";
+import Nissim from "./imgs/nissim.jpg";
+import Nachlaot from "./imgs/nachlaot.jpg";
 class Content1 extends Component {
   render() {
     return (
       <div>
-        <section className="hero">
-          <div
-            className="background-image"
-            style={{ backgroundImage: "url()" }}
-          />
-          <h1>This is a blank content page component</h1>
-          <h3>Write soome other thing here about this thing.</h3>
-        </section>
+        <div className="headerBg" />
+
+        <div className="GalleryGrid">
+          <div className="GalleryPic small">
+            <img src={Nissim} />
+          </div>
+
+          <div className="GalleryPic large">
+            <img src={Nachlaot} />
+          </div>
+
+          <div className="GalleryPic small2">
+            <img src={Nissim} />
+          </div>
+
+          <div className="GalleryPic medium">
+            <img src={Nissim} />
+          </div>
+
+          <div className="signature">
+            <h1>SOUZA</h1>
+          </div>
+        </div>
+
         <section className="features">
           <h3 className="title">Some recent work</h3>
           <p>

@@ -16,6 +16,7 @@ import Contact from "./Contact";
 
 class App extends Component {
   render() {
+    console.log("fuck this");
     return (
       <Router>
         <div className="App">

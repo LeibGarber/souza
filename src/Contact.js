@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Contact.css";
 import Gps from "./imgs/gpsIcon.svg.js";
+import Envelope from "./imgs/Envelope.svg.js";
 class Contact extends Component {
   render() {
     return (
@@ -27,7 +28,9 @@ class Contact extends Component {
               <p>Shim'on Bar Yokhai St 51, Tsfat</p>
             </div>
             <div className="emailAddy">
-              <h4>Email</h4>
+              <h4>
+                <Envelope />Email
+              </h4>
               <p>solomonsouza@someplace.com</p>
             </div>
           </div>

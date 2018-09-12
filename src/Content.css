@@ -58,15 +58,3 @@
   min-height: 105px;
   opacity: 0.8;
 }
-
-.LazySunny h1 {
-  font: bold 60px "IBM Plex Sans", sans-serif;
-  margin-bottom: 15px;
-  color: black;
-}
-
-.LazySunny h3 {
-  font: normal 28px "IBM Plex Sans", sans-serif;
-  margin-bottom: 40px;
-  color: black;
-}

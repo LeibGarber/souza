@@ -1,0 +1,40 @@
+.hero.contactFormHero {
+  max-height: 85vh;
+}
+.contactGrid {
+  margin: -5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5vw;
+}
+
+.contactHeader {
+  justify-content: flex-start;
+  grid-row-start: 2;
+}
+
+.contactGrid p {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  padding: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.headquarters {
+  text-align: left;
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.gpsIcon {
+  height: 16px;
+  fill: white;
+}
+
+.emailAddy {
+  text-align: left;
+  grid-column: 3;
+  grid-row: 4;
+}

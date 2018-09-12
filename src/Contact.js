@@ -2,18 +2,19 @@ import React, { Component } from "react";
 import "./Contact.css";
 import Gps from "./imgs/gpsIcon.svg.js";
 import Envelope from "./imgs/Envelope.svg.js";
+import LazyHero from "react-lazy-hero";
 class Contact extends Component {
   render() {
     return (
       <div>
-        <section className="hero contactFormHero">
-          <div
-            className="background-image"
-            style={{
-              backgroundImage:
-                "url(https://upload.wikimedia.org/wikipedia/commons/b/b7/Tzfat_sunset_%282063020598%29.jpg)"
-            }}
-          />
+        <LazyHero
+          className="hero contactFormHero"
+          imageSrc="https://upload.wikimedia.org/wikipedia/commons/b/b7/Tzfat_sunset_%282063020598%29.jpg"
+          opacity={0.0}
+          parallaxOffset={100}
+          transitionDuration={600}
+          minHeight="105vh"
+        >
           <div className="contactGrid">
             <h1 className="contactHeader">CONTACT</h1>
             <p className="contactBlurb">
@@ -34,7 +35,7 @@ class Contact extends Component {
               <p>solomonsouza@someplace.com</p>
             </div>
           </div>
-        </section>
+        </LazyHero>
       </div>
     );
   }

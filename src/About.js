@@ -20,6 +20,7 @@ class About extends Component {
           opacity={0.5}
           parallaxOffset={100}
           minHeight="135vh"
+          transitionDuration={850}
         >
           <br />
           <br />

@@ -2,7 +2,7 @@
   max-height: 85vh;
 }
 .contactGrid {
-  margin: -5px;
+  margin: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -12,6 +12,8 @@
 .contactHeader {
   justify-content: flex-start;
   grid-row-start: 2;
+  font: bold 60px "IBM Plex Sans", sans-serif;
+  color: white;
 }
 
 .contactGrid p {

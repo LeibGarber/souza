@@ -10,7 +10,7 @@
 }
 
 .contactHeader {
-  justify-content: flex-start;
+  text-align: left;
   grid-row-start: 2;
   font: bold 60px "IBM Plex Sans", sans-serif;
   color: white;
@@ -49,4 +49,35 @@
   padding-bottom: -2px;
   height: 18px;
   fill: white;
+}
+
+@media (max-width: 445px) {
+  .contactGrid {
+    margin: 25px;
+    padding: 8px;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.28);
+  }
+  .contactGrid p.contactBlurb {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width 340px) {
+  .contactGrid {
+    margin: 35px;
+    padding: 8px;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.28);
+  }
 }

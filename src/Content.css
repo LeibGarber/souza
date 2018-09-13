@@ -58,3 +58,11 @@
   min-height: 105px;
   opacity: 0.8;
 }
+
+@media (max-width: 420px) {
+  .headerBg {
+    background-color: #414a4f;
+    min-height: 150px;
+    opacity: 0.8;
+  }
+}

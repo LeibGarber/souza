@@ -476,3 +476,16 @@ footer p a {
   margin-bottom: 40px;
   color: white;
 }
+
+@media (max-width: 340px) {
+  .LazySunny > div:first-child {
+    background-position: initial !;
+    background-position-x: -80px;
+  }
+}
+@media (max-width: 445px) {
+  .LazySunny > div:first-child {
+    background-position: initial !;
+    background-position-x: -115px;
+  }
+}

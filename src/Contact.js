@@ -28,12 +28,14 @@ class Contact extends Component {
               </h4>
               <p>Shim'on Bar Yokhai St 51, Tsfat</p>
             </div>
-            <div className="emailAddy">
-              <h4>
-                <Envelope />Email
-              </h4>
-              <p>solomonsouza@someplace.com</p>
-            </div>
+            <a href="mailto:emailaddress@.com">
+              <div className="emailAddy">
+                <h4>
+                  <Envelope />Email
+                </h4>
+                <p>solomonsouza@someplace.com</p>
+              </div>
+            </a>
           </div>
         </LazyHero>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import logo from "./imgs/favicon.ico";
 import "./App.css";
 import {
   Route,

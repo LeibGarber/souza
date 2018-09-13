@@ -28,7 +28,7 @@ class Contact extends Component {
               </h4>
               <p>Shim'on Bar Yokhai St 51, Tsfat</p>
             </div>
-            <a href="mailto:emailaddress@.com">
+            <a href="mailto:emailaddress@.com" className="emailAddy">
               <div className="emailAddy">
                 <h4>
                   <Envelope />Email

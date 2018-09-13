@@ -17,7 +17,7 @@ class Content1 extends Component {
             <img src={Nachlaot} />
           </div>
 
-          <div className="GalleryPic small2">
+          <div className="GalleryPic small1">
             <img src={Nissim} />
           </div>
 
@@ -27,6 +27,10 @@ class Content1 extends Component {
 
           <div className="signature">
             <h1>SOUZA</h1>
+          </div>
+
+          <div className="GalleryPic xl">
+            <img src={Nachlaot} />
           </div>
         </div>
 

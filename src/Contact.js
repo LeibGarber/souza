@@ -15,30 +15,28 @@ class Contact extends Component {
           transitionDuration={600}
           minHeight="105vh"
         >
-
           <div className="contactGrid">
-              <h1 className="contactHeader">CONTACT</h1>
-              <p className="contactBlurb">
-                Interested in working together? Please be in touch with some info
-                about your project and I will get back to you as soon as I can.
-                Please allow a few days for me to respond.{" "}
-              </p>
-              
-              <div className="headquarters">
-                <h4>
-                  <Gps /> Headquarters
-                </h4>
-                <p>Shim'on Bar Yokhai St 51, Tsfat</p>
-              </div>
-              <a href="mailto:emailaddress@.com" className="emailAddy">
-                <div className="emailAddy">
-                  <h4>
-                    <Envelope />Email
-                  </h4>
-                  <p>solomonsouza@someplace.com</p>
-                </div>
+            <h1 className="contactHeader">CONTACT</h1>
+            <p className="contactBlurb">
+              Interested in working together? Please be in touch with some info
+              about your project and I will get back to you as soon as I can.
+              Please allow a few days for me to respond.{" "}
+            </p>
 
-              </a>
+            <div className="headquarters">
+              <h4>
+                <Gps /> Headquarters
+              </h4>
+              <p>Jerusalem, Israel</p>
+            </div>
+            <a href="mailto:emailaddress@.com" className="emailAddy">
+              <div className="emailAddy">
+                <h4>
+                  <Envelope />Email
+                </h4>
+                <p>solomonsouza@someplace.com</p>
+              </div>
+            </a>
           </div>
         </LazyHero>
       </div>

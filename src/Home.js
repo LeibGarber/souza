@@ -70,7 +70,7 @@ class Home extends Component {
               <h4>Commisions</h4>
               <p>
                 For the serious patrons of the arts, commisioned works are
-                available. No canvas too large or too small.
+                available.
               </p>
             </li>
             <li>
@@ -99,15 +99,20 @@ class Home extends Component {
           <h3 className="title">What others say:</h3>
 
           <p className="quote">
+            If there is a slice of hip in fusty Jewish Jerusalem, this is it.
+          </p>
+          <p className="author">-Washington Post</p>
+
+          <p className="quote">
             The work is very meaningful and a symbol of peace
           </p>
-          <p className="author">— Hatam</p>
+          <p className="author">— Hatam store owner of a Mahane Yehuda shop</p>
 
           <p className="quote">
             Solomon Souza captures his subjects accurately and effectively,
             while the splashes of color make his works vibrant.
           </p>
-          <p className="author">— Giula Blocal</p>
+          <p className="author">— Giula Blocal </p>
 
           <p className="quote">
             Mahane Yehuda comes to life on the Sabbath as colorful murals of

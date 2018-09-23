@@ -28,7 +28,7 @@ class About extends Component {
           <br />
           <h1>Who is Solomon?</h1>
 
-          <h3>It’s meant to be mysterious...</h3>
+          <h3>It’s meant to be mysterious.</h3>
         </LazyHero>
 
         <section className="our-work">

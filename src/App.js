@@ -11,8 +11,14 @@ import {
 import Home from "./Home";
 import About from "./About";
 import Content1 from "./Content1";
-import Content2 from "./Content2";
+import Shuk from "./Shuk";
+import Murals from "./Murals";
 import Contact from "./Contact";
+import Insta from "./imgs/instagram.svg";
+import Facebook from "./imgs/facebook.svg";
+
+console.log(Insta);
+console.log(Facebook);
 
 class App extends Component {
   render() {
@@ -55,29 +61,10 @@ class App extends Component {
           <footer>
             <ul>
               <li>
-                <a href="#">
-                  <i className="fa fa-twitter-square" />
-                </a>
+                <img src={Insta} className="social-square" />
               </li>
               <li>
-                <a href="#">
-                  <i className="fa fa-facebook-square" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-snapchat-square" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-pinterest-square" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-github-square" />
-                </a>
+                <img src={Facebook} className="social-square" />{" "}
               </li>
             </ul>
             <p>

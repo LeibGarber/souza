@@ -12,15 +12,15 @@ import Lines from "./imgs/linesFix.jpg";
 import Paper from "./imgs/paperFix.jpg";
 import LazyHero from "react-lazy-hero";
 
-const Chicago = require("./imgs/chicagoWarehouse.jpg");
+const ShukRabbis = require("./imgs/shukRabbis.jpg");
 
-class Content1 extends Component {
+class Shuk extends Component {
   render() {
     return (
       <div>
         <LazyHero
           className="ContentHeaderParralax"
-          imageSrc={Chicago}
+          imageSrc={ShukRabbis}
           color="#515577"
           opacity={0.5}
           parallaxOffset={100}
@@ -29,18 +29,19 @@ class Content1 extends Component {
         />
 
         <section className="our-work">
-          <h2>Works on Canvas</h2>
+          <h2>
+            "If there is a slice of hip in fusty Jewish Jerusalem, this is it."
+          </h2>
+          <h3>-Washington Post</h3>
           <p>
-            Following in the tradition of Indias single most celebrated artist
-            of all time, FM Souza, Solomon Souza is also keen on painting
-            canvases. And like his granfather before him, Solomon is rapidly
-            taking the art world by storm. The similarities end there. Solomon
-            has created his own style, fusing his love for classical composition
-            with his edgy, vibrant street art. These works captivate their
-            viewer and elevate the environment they are displayed in with their
-            inspired touch, drawing down the divine and enclothing it in a
-            vessel at once graspable by the soaring heights of intellect and the
-            emotional faculties of the human soul.{" "}
+            {" "}
+            In a labor of love, Solomon Souza transformed hundreds of shutters
+            in the heartplace of Jerusalems hustle and bustle into an explosion
+            of colors and history. Instead of creating works of art and packing
+            them away to be sold and seen only by those who can afford entry, he
+            has created a gallery to be seen by one and all, turning bleak
+            stained shutters into the catalyst for a centuries waited
+            renaissance.
           </p>
           <div className="signature">
             <h1>SOUZA</h1>
@@ -90,4 +91,4 @@ class Content1 extends Component {
     );
   }
 }
-export default Content1;
+export default Shuk;

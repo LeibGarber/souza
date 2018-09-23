@@ -14,7 +14,7 @@ import LazyHero from "react-lazy-hero";
 
 const Chicago = require("./imgs/chicagoWarehouse.jpg");
 
-class Content1 extends Component {
+class Murals extends Component {
   render() {
     return (
       <div>
@@ -29,18 +29,10 @@ class Content1 extends Component {
         />
 
         <section className="our-work">
-          <h2>Works on Canvas</h2>
+          <h2>Murals</h2>
           <p>
-            Following in the tradition of Indias single most celebrated artist
-            of all time, FM Souza, Solomon Souza is also keen on painting
-            canvases. And like his granfather before him, Solomon is rapidly
-            taking the art world by storm. The similarities end there. Solomon
-            has created his own style, fusing his love for classical composition
-            with his edgy, vibrant street art. These works captivate their
-            viewer and elevate the environment they are displayed in with their
-            inspired touch, drawing down the divine and enclothing it in a
-            vessel at once graspable by the soaring heights of intellect and the
-            emotional faculties of the human soul.{" "}
+            From the alleways of the ancient city of Tzfat, to Downtown LA, can
+            be found murals depicting Jewish themes.
           </p>
           <div className="signature">
             <h1>SOUZA</h1>
@@ -90,4 +82,4 @@ class Content1 extends Component {
     );
   }
 }
-export default Content1;
+export default Murals;

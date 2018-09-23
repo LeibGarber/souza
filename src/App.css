@@ -426,6 +426,7 @@ footer ul {
   display: flex;
   margin-bottom: 25px;
   font-size: 32px;
+  justify-content: space-between;
 }
 
 footer ul li {
@@ -440,6 +441,12 @@ footer ul li:last-child {
   margin-right: 0;
 }
 
+footer ul li img {
+  height: 50px;
+  width: 50px;
+  margin: 0 15vw;
+}
+
 footer p {
   text-transform: uppercase;
   font-size: 14px;
@@ -449,6 +456,15 @@ footer p {
 
 footer p a {
   color: #fff;
+}
+
+.social-sqaure {
+  height: 30px;
+  width: 30px;
+}
+
+.social-square:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
 }
 
 @media (max-width: 700px) {

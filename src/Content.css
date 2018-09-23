@@ -1,3 +1,9 @@
+.ContentHeaderParralax h1 {
+  font: bold 60px "IBM Plex Sans", sans-serif;
+  margin-bottom: 15px;
+  color: white;
+}
+
 .GalleryGrid {
   margin: 1.5vw 0;
   display: flex;
@@ -7,7 +13,7 @@
 }
 
 .GalleryPic {
-  height: 24vw;
+  height: 40vw;
   width: 24vw;
 }
 

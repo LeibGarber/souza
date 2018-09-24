@@ -31,7 +31,7 @@ class Murals extends Component {
         <section className="our-work">
           <h2>Murals</h2>
           <p>
-            From the alleways of the ancient city of Tzfat, to Downtown LA, can
+            From the alleways of the ancient city of Tzfat, to Downtown LA can
             be found murals depicting Jewish themes.
           </p>
           <div className="signature">

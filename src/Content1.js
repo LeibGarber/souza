@@ -31,13 +31,13 @@ class Content1 extends Component {
         <section className="our-work">
           <h2>Works on Canvas</h2>
           <p>
-            Following in the tradition of Indias single most celebrated artist
-            of all time, FM Souza, Solomon Souza is also keen on painting
+            Following in the tradition of India's single most celebrated artist
+            of all time - FM Souza - Solomon Souza is also keen on painting
             canvases. And like his granfather before him, Solomon is rapidly
             taking the art world by storm. The similarities end there. Solomon
             has created his own style, fusing his love for classical composition
-            with his edgy, vibrant street art. These works captivate their
-            viewer and elevate the environment they are displayed in with their
+            with his edgy vibrant street art. These works captivate their viewer
+            and elevate the environment they are displayed in with their
             inspired touch, drawing down the divine and enclothing it in a
             vessel at once graspable by the soaring heights of intellect and the
             emotional faculties of the human soul.{" "}

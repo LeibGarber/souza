@@ -19,7 +19,7 @@ class Shuk extends Component {
     return (
       <div>
         <LazyHero
-          className="ContentHeaderParralax"
+          className="ContentHeaderParralax Shuk"
           imageSrc={ShukRabbis}
           color="#515577"
           opacity={0.5}
@@ -29,19 +29,20 @@ class Shuk extends Component {
         />
 
         <section className="our-work">
-          <h2>
+          <p className="quote">
             "If there is a slice of hip in fusty Jewish Jerusalem, this is it."
-          </h2>
-          <h3>-Washington Post</h3>
+          </p>
+          <p className="author">-Washington Post</p>
           <p>
             {" "}
             In a labor of love, Solomon Souza transformed hundreds of shutters
-            in the heartplace of Jerusalems hustle and bustle into an explosion
+            in the heartplace of Jerusalem's hustle and bustle into an explosion
             of colors and history. Instead of creating works of art and packing
             them away to be sold and seen only by those who can afford entry, he
-            has created a gallery to be seen by one and all, turning bleak
-            stained shutters into the catalyst for a centuries waited
-            renaissance.
+            has created a gallery to be seen by one and all, breathing color and
+            life into bleak stained shutters - transforming the very symbol of
+            an empty marketplace into the catalyst for a centuries-waited
+            renaissance in the ancient and eternal capital city.
           </p>
           <div className="signature">
             <h1>SOUZA</h1>

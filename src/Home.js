@@ -99,11 +99,6 @@ class Home extends Component {
           <h3 className="title">What others say:</h3>
 
           <p className="quote">
-            If there is a slice of hip in fusty Jewish Jerusalem, this is it.
-          </p>
-          <p className="author">-Washington Post</p>
-
-          <p className="quote">
             The work is very meaningful and a symbol of peace
           </p>
           <p className="author">— Hatam store owner of a Mahane Yehuda shop</p>

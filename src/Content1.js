@@ -11,6 +11,7 @@ import Fish from "./imgs/fish.jpg";
 import Lines from "./imgs/linesFix.jpg";
 import Paper from "./imgs/paperFix.jpg";
 import LazyHero from "react-lazy-hero";
+import Fodal from "./Fodal.js";
 
 const Chicago = require("./imgs/chicagoWarehouse.jpg");
 
@@ -40,7 +41,7 @@ class Content1 extends Component {
             and elevate the environment they are displayed in with their
             inspired touch, drawing down the divine and enclothing it in a
             vessel at once graspable by the soaring heights of intellect and the
-            emotional faculties of the human soul.{" "}
+            emotional faculties of the human soul.
           </p>
           <div className="signature">
             <h1>SOUZA</h1>
@@ -49,7 +50,18 @@ class Content1 extends Component {
 
         <div className="GalleryGrid">
           <div className="GalleryPic small">
-            <img src={Battle} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={Battle} key="battle" />
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">Battle</h3>
+                  <p className="Fodal-Blurb">
+                    Painting depicting ancient battle{" "}
+                  </p>
+                </div>
+              </div>
+            </Fodal>
           </div>
 
           <div className="GalleryPic small1">

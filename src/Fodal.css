@@ -1,0 +1,100 @@
+.Fodal-Open {
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: shadeFadein 0.65s forwards;
+}
+
+@keyframes shadeFadein {
+  from {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.Fodal-Content {
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(170, 172, 175, 0.65);
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Fodal-Open img {
+  width: auto;
+  height: 85vh;
+
+  transition: height 1s, width 1s;
+}
+
+.Fodal-Content > div {
+  width: 25vw;
+}
+
+.Fodal-Closed .Fodal-Hide {
+  display: none;
+}
+
+.Fodal-Text {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 2vw 0 0 2vw;
+}
+
+.Fodal-Title {
+  margin-bottom: 10px;
+}
+
+.Painting-Blurb-Card {
+  background-color: rgba(245, 245, 245, 0.55);
+  text-align: left;
+  min-height: 100px;
+  margin-right: 2vw;
+  padding: 12px;
+  border: 1.5px outset #eee9e9;
+  outline: 20px solid rgba(240, 240, 230, 0.45);
+}
+
+@media (max-width: 500px) {
+  .Fodal-Open img {
+    width: 85vw;
+    height: auto;
+  }
+  .Fodal-spaceHolder {
+    display: none;
+  }
+  .Fodal-Content {
+    flex-wrap: wrap-reverse;
+  }
+  .Fodal-Content > div.Fodal-Text {
+    min-height: 20%;
+    width: 40vw;
+  }
+}

@@ -49,7 +49,7 @@ class App extends Component {
             <li className="dropNav">
               <NavDrop
                 menuOpen={this.state.menuOpen}
-                navItems={["Content1", "Murals", "Shuk"]}
+                navItems={["Canvas", "Murals", "Shuk"]}
                 onClick={this.navigate}
               >
                 <a onClick={this.toggleMenu}>Content</a>
@@ -64,7 +64,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/content1" component={Content1} />
+          <Route exact path="/canvas" component={Content1} />
           <Route exact path="/shuk" component={Shuk} />
           <Route exact path="/murals" component={Murals} />
           <Route exact path="/contact" component={Contact} />
@@ -74,10 +74,21 @@ class App extends Component {
         <footer>
           <ul>
             <li>
-              <img src={Insta} className="social-square insta" />
+              <a
+                href="https://www.instagram.com/solomonsouza/?hl=en"
+                target="_blank"
+              >
+                <img src={Insta} className="social-square insta" />
+              </a>
             </li>
             <li>
-              <img src={Facebook} className="social-square face" />{" "}
+              <a
+                href="https://www.facebook.com/Solomon-Souza-846265702107950/"
+                target="_blank"
+              >
+                {" "}
+                <img src={Facebook} className="social-square face" />
+              </a>
             </li>
           </ul>
           <p>

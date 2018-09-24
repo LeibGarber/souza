@@ -70,10 +70,10 @@ class App extends Component {
         <footer>
           <ul>
             <li>
-              <img src={Insta} className="social-square" />
+              <img src={Insta} className="social-square insta" />
             </li>
             <li>
-              <img src={Facebook} className="social-square" />{" "}
+              <img src={Facebook} className="social-square face" />{" "}
             </li>
           </ul>
           <p>

@@ -17,6 +17,10 @@ class App extends Component {
     menuOpen: false
   };
 
+  closeMenu = () => {
+    this.setState({ menuOpen: false });
+  };
+
   navigate = navItem => {
     this.props.history.push(navItem);
     this.setState({ menuOpen: false });
@@ -36,10 +40,10 @@ class App extends Component {
             </NavLink>
           </h2>
           <nav>
-            <li>
+            <li onClick={this.closeMenu}>
               <NavLink to="/home">Home</NavLink>
             </li>
-            <li>
+            <li onClick={this.closeMenu}>
               <NavLink to="/about">About</NavLink>
             </li>
             <li className="dropNav">
@@ -51,7 +55,7 @@ class App extends Component {
                 <a onClick={this.toggleMenu}>Content</a>
               </NavDrop>
             </li>
-            <li>
+            <li onClick={this.closeMenu}>
               <NavLink to="/contact">Contact</NavLink>
             </li>
           </nav>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import tiif from "./imgs/tiif.png";
 class Home extends Component {
   render() {
     return (
@@ -117,19 +118,17 @@ class Home extends Component {
         </section>
 
         <section className="contact">
-          <h3 className="title">Keep up with the revolution</h3>
+          <h3 className="title">Prints availabe online</h3>
           <p>
-            כל הדברים שבגמרא הבבלי חייבין כל ישראל ללכת בהם וכופין כל עיר ועיר
-            וכל מדינה ומדינה לנהוג בכל המנהגות שנהגו חכמי הגמרא
+            Hand signed and certified serigraphs will be availabe for a limited
+            time thru The Israel Innovation Fund. Visit their online store, and
+            check out some of their other ongoing projects.
           </p>
           <br />
 
-          <form>
-            <input type="email" placeholder="Email" />
-            <a href="#" className="btn">
-              Subscribe now
-            </a>
-          </form>
+          <a href="https://tiif.org/store/" target="_blank">
+            <img src={tiif} className="Tiif-Fullsize" />
+          </a>
         </section>
       </div>
     );

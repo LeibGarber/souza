@@ -303,6 +303,15 @@ header nav > li:last-child {
   }
 }
 
+.Tiif-Fullsize {
+  height: 180px;
+  width: auto;
+  border-radius: 12px;
+}
+
+.Tiif-Fullsize:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
+}
 /*----------------------
  	Features Section
 ----------------------*/
@@ -478,12 +487,20 @@ footer p a {
   height: 30px;
   width: 30px;
 }
+
+.social-rec {
+  height: 60px;
+  width: 100px;
+}
+
 .social-square.insta,
-.social-square.face {
+.social-square.face,
+.social-rec {
   border-radius: 12px;
 }
 
-.social-square:hover {
+.social-square:hover,
+.social-rec:hover {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
 }
 

@@ -21,7 +21,9 @@
   height: 22vw;
   width: 22vw;
   box-shadow: 2px 2px 2px #999;
+  cursor: pointer;
 }
+
 .signature {
   display: flex;
   font-family: "Cinzel Decorative", cursive;

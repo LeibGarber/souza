@@ -10,6 +10,7 @@ import Murals from "./Murals";
 import Contact from "./Contact";
 import Insta from "./imgs/instagram.svg";
 import Facebook from "./imgs/facebook.svg";
+import Tiif from "./imgs/tiif.png";
 import { NavDrop } from "capslok-lib";
 
 class App extends Component {
@@ -81,6 +82,7 @@ class App extends Component {
                 <img src={Insta} className="social-square insta" />
               </a>
             </li>
+
             <li>
               <a
                 href="https://www.facebook.com/Solomon-Souza-846265702107950/"
@@ -88,6 +90,12 @@ class App extends Component {
               >
                 {" "}
                 <img src={Facebook} className="social-square face" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://tiif.org/store/" target="_blank">
+                <img src={Tiif} className="social-rec tiif" />
               </a>
             </li>
           </ul>

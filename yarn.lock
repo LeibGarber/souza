@@ -1411,9 +1411,9 @@ caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792:
   version "1.0.30000883"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000883.tgz#597c1eabfb379bd9fbeaa778632762eb574706ac"
 
-capslok-lib@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/capslok-lib/-/capslok-lib-0.0.6.tgz#4e2a4aff91b888ebef1bfd54df38ed18eb0bf8de"
+capslok-lib@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/capslok-lib/-/capslok-lib-0.0.7.tgz#c26ed9da6fa7a7f91efc61fa8132b465200d1585"
   dependencies:
     react "^16.5.1"
     react-dom "^16.5.1"

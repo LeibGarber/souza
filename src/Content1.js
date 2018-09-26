@@ -65,31 +65,109 @@ class Content1 extends Component {
           </div>
 
           <div className="GalleryPic small1">
-            <img src={Faces} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={Faces} key="faces" />
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">Faces</h3>
+                  <p className="Fodal-Blurb">Faces faces faces</p>
+                </div>
+              </div>
+            </Fodal>
           </div>
 
           <div className="GalleryPic small2">
-            <img src={kohenGadol} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={kohenGadol} />{" "}
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">kohen</h3>
+                  <p className="Fodal-Blurb">the big kahuna</p>
+                </div>
+              </div>
+            </Fodal>
           </div>
 
           <div className="GalleryPic small3">
-            <img src={Adam} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={Adam} />
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">title here</h3>
+                  <p className="Fodal-Blurb">
+                    short sweet and to the point lets drop some words about this
+                    joint
+                  </p>
+                </div>
+              </div>
+            </Fodal>
           </div>
 
           <div className="GalleryPic small4">
-            <img src={Fish} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={Fish} />
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">title here</h3>
+                  <p className="Fodal-Blurb">
+                    short sweet and to the point lets drop some words about this
+                    joint
+                  </p>
+                </div>
+              </div>
+            </Fodal>
           </div>
 
           <div className="GalleryPic small5">
-            <img src={Lines} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={Lines} />
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">title here</h3>
+                  <p className="Fodal-Blurb">
+                    short sweet and to the point lets drop some words about this
+                    joint
+                  </p>
+                </div>
+              </div>
+            </Fodal>
           </div>
 
           <div className="GalleryPic small6">
-            <img src={Paper} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={Paper} />
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">title here</h3>
+                  <p className="Fodal-Blurb">
+                    short sweet and to the point lets drop some words about this
+                    joint
+                  </p>
+                </div>
+              </div>
+            </Fodal>
           </div>
 
           <div className="GalleryPic small7">
-            <img src={Prayer} />
+            <Fodal>
+              <div className="Fodal-spaceHolder" />
+              <img src={Prayer} />
+              <div className="Fodal-Text Fodal-Hide">
+                <div className="Painting-Blurb-Card">
+                  <h3 className="Fodal-Title">title here</h3>
+                  <p className="Fodal-Blurb">
+                    short sweet and to the point lets drop some words about this
+                    joint
+                  </p>
+                </div>
+              </div>
+            </Fodal>
           </div>
         </div>
 

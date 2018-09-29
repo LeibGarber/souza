@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "capslok-lib": "^0.0.6",
+    "capslok-lib": "^0.0.8",
     "pushstate-server": "^3.0.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

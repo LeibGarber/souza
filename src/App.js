@@ -99,13 +99,15 @@ class App extends Component {
               </a>
             </li>
           </ul>
-          <p>
-            Made by{" "}
-            <a href="..." target="_blank">
-              CapsLok
-            </a>.{" "}
-          </p>
-          <p>Watch us ball out on these mofos</p>
+          <div>
+            <p>
+              Made by{" "}
+              <a href="..." target="_blank">
+                CapsLok
+              </a>.{" "}
+            </p>
+            <p>Watch us ball out on these mofos</p>
+          </div>
         </footer>
       </div>
     );

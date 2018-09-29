@@ -449,13 +449,14 @@ footer {
 
 footer ul {
   display: flex;
+  flex-direction: row;
   margin-bottom: 25px;
   font-size: 32px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 footer ul li {
-  margin: 0 8px;
+  margin: 0 60px;
 }
 
 footer ul li:first-child {
@@ -464,12 +465,13 @@ footer ul li:first-child {
 
 footer ul li:last-child {
   margin-right: 0;
+  margin-top: -6px;
 }
 
 footer ul li img {
   height: 50px;
   width: 50px;
-  margin: 0 15vw;
+  margin: 0;
 }
 
 footer p {
@@ -481,6 +483,26 @@ footer p {
 
 footer p a {
   color: #fff;
+}
+
+@media (max-width: 723px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer ul {
+    flex-direction: column;
+    width: 94vw;
+  }
+
+  footer ul li {
+    margin: 0;
+  }
+  footer ul li img {
+    height: 40px;
+  }
 }
 
 .social-sqaure {
